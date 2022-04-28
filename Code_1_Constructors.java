@@ -25,7 +25,7 @@ class stud{
 }
 
 // Java has no destructor
-// It used automatic garbage collector that deallocates memory automatically
+// It uses automatic garbage collector that deallocates memory automatically
 
 
 

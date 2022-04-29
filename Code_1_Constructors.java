@@ -8,7 +8,7 @@ class stud{
 
         //System.out.println("constructor called");
     }
-    stud(String name, int age){  // parametrised constructor
+    stud(String name, int age){  // parameterised constructor
         this.name=name;
         this.age=age;
     }

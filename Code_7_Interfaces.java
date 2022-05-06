@@ -1,0 +1,34 @@
+package SwaraliPractice;
+// All fields in interfaces are public,static and final by default
+// All methods are public and abstract by default
+// Interfaces support the functionality of multiple inheritance
+interface beast{
+    void walk();
+
+    // interface abstract methods cannot have body
+//    void eat(){  // error
+// }
+
+}
+
+interface carnivore{
+    void eat();
+}
+
+class Lion implements beast,carnivore{ // multiple inheritance using interfaces
+    public void walk(){     // got error on removal of public keyword
+        System.out.println("Lion walks");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Lion eats");
+    }
+}
+public class Code_7_Interfaces {
+    public static void main(String[] args) {
+       Lion l= new Lion();
+       l.eat();
+       l.walk();
+    }
+}

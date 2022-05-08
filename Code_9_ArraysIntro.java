@@ -28,5 +28,9 @@ public class Code_9_ArraysIntro {
 
         for(int i=0; i<size; i++)
             System.out.print(arr[i]+" ");
+        
+        // length attribute to find the length of array- arr.length
+        // Integer.MAX_VALUE , Integer.MIN_VALUE - constants in the integer class of java.lang package
+        
     }
 }

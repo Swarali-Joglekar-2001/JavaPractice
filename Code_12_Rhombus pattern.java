@@ -9,6 +9,8 @@ import java.util.Scanner;
 public class Main
 {
 	public static void main(String[] args) {
+		// My solution
+		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the length of rhombus:");
 		int x= sc.nextInt();

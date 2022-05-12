@@ -17,21 +17,19 @@ public class Main
 		int rows=x;
 		int frontSpaces=x-1; // initialise
 		int stars=x;
-		int backSpaces=0; // limit- x-1
+		
 		
 		for(int i=0;i<rows; i++){
 		    for(int j=0; j<frontSpaces; j++){
 		        	System.out.print(" ");
 		    }
+			
+		    frontSpaces--;
+			
 		    for(int k=0; k<stars; k++){
 		        System.out.print("*");
 		    }
-		    for(int m=0; m<backSpaces; m++){
-		        	System.out.print(" ");
-		    }
 		    
-		    frontSpaces--;
-		    backSpaces++;
 		    System.out.println();
 		}
 		

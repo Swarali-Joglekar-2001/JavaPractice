@@ -2,7 +2,7 @@
 
 import java.io.*;
 import java.util.Scanner;
-class GFG {
+class Comp {
 	public static void main (String[] args) {
 	    // to find: x^n
 	    int x,n;

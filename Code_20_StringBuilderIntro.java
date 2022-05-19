@@ -1,7 +1,7 @@
 package SwaraliPractice;
 
 import java.util.*;
-public class Code_12_StringBuilderIntro {
+public class Code_20_StringBuilderIntro {
     public static void main(String[] args) {
         // Strings are immutable in java.
         // StringBuilder class provides an alternative to String Class, as it

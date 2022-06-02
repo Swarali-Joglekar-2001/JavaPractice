@@ -1,6 +1,6 @@
 package SwaraliPractice;
 
-public class Code_15_BubbleSort {
+public class Code_23_BubbleSort {
     public static void main(String[] args) {
         int n=5;
         int [] arr={5,4,1,2,3};

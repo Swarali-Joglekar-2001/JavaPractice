@@ -1,6 +1,6 @@
 package SwaraliPractice;
 
-public class Code_14_BitManipulation {
+public class Code_22_BitManipulation {
     public static void main(String[] args) {
         // 1. Get bit of n at given position
         // (bit mask)1<<i  AND n  => if non-zero- bit is 1 , if zero- bit is zero

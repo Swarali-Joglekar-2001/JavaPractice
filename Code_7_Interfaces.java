@@ -16,7 +16,7 @@ interface carnivore{
 }
 
 class Lion implements beast,carnivore{ // multiple inheritance using interfaces
-    public void walk(){     // got error on removal of public keyword
+    public void walk(){     // DOUBT- Why did I get an error on removal of public keyword on this line?
         System.out.println("Lion walks");
     }
 

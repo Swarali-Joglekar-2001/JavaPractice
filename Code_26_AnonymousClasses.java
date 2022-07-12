@@ -1,5 +1,3 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
 
 class A{
     public void print(){
@@ -15,9 +13,9 @@ class Code_26_AnonymousClasses {
                 System.out.println("Happy");
             }
         };
-        obj1.print();
+        obj1.print(); // Happy
         A obj2= new A();
-        obj2.print();
+        obj2.print(); // Calm
        
     }
 }

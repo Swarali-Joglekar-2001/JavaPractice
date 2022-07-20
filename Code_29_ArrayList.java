@@ -25,7 +25,7 @@ public class Code_29_ArrayList {
         System.out.println(list1); //[0,1,2,3]
 
         // 4. Set element at an index
-        list1.set(3,4); // at index 33, set element 4.
+        list1.set(3,4); // at index 3, set element 4.
         System.out.println(list1);
 
         // 5. Delete element at an index
@@ -35,6 +35,8 @@ public class Code_29_ArrayList {
         // 6.size
         int size= list1.size();
         System.out.println(size);
+        
+        // contains() - returns true if the list contains the specified element
 
         // 7.loop
         for(int i=0; i<list1.size(); i++){

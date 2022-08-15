@@ -11,7 +11,7 @@ public class Code_10_2dArraysIntro {
                 matrix[i][j]=sc.nextInt();
             }
         }
-
+   // rowsize- matrix.length , column size- matrix[0].length
         for(int i=0; i<rowSize; i++){
             for(int j=0;j<colSize; j++){
                 System.out.print(matrix[i][j]+" ");

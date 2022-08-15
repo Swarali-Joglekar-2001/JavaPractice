@@ -2,6 +2,7 @@ package SwaraliPractice;
 // All fields in interfaces are public,static and final by default
 // All methods are public and abstract by default
 // Interfaces support the functionality of multiple inheritance
+// Interface "extends" other interface and class "implements" the interface
 interface beast{
     void walk();
 
